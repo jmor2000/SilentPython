@@ -1,0 +1,10 @@
+Started at: 1658411097.061859
+Opened database successfully
+Found table successfully
+Display Script Successfully Updated in SQLight
+{'module': 'script_MQTT.myscript', 'name': 'app_MQTT9', 'group': ['group1', '', ''], 'logfile': True, 'autorestart': 0, 'logdir': 'D:\\Python\\Monitoring Scripts\\SilentPython 3 Export\\logs\\app_MQTT9/2022_07_21-14_44_57.log', 'pid': 18416, 'status': 1, 'state': 'starting', 'ts_created': 1658411097.061859, 'count_cycle': 0}
+try import.......script_MQTT.myscript
+Python Code==========================================
+Connected with result code 0
+Influx client connected: Scripts
+loops started

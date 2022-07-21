@@ -1,0 +1,34 @@
+Started at: 1658338420.051025
+Opened database successfully
+Found table successfully
+Previous item found in mysql attempt kill & delete
+Display Script Successfully Updated in SQLight
+{'module': 'script_Helloworld.myscript', 'name': 'app_HelloWorld', 'group': ['group1', 'group2', 'group3'], 'logfile': True, 'autorestart': 1, 'logdir': 'D:\\Python\\Monitoring Scripts\\SilentPython 3\\logs\\app_HelloWorld/2022_07_20-18_33_40.log', 'pid': 4176, 'status': 1, 'state': 'starting', 'ts_created': 1658338420.051025, 'count_cycle': 0}
+try import.......script_Helloworld.myscript
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World
+app_HelloWorld - Hello World

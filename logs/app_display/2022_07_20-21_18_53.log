@@ -1,0 +1,38 @@
+Started at: 1658348333.269503
+Opened database successfully
+Found table successfully
+Display Script Successfully Updated in SQLight
+{'module': 'script_display.myscript', 'name': 'app_display', 'group': ['group1', 'group2', 'group3'], 'logfile': True, 'autorestart': 0, 'logdir': 'D:\\Python\\Monitoring Scripts\\SilentPython 3 Export\\logs\\app_display/2022_07_20-21_18_53.log', 'pid': 10364, 'status': 1, 'state': 'starting', 'ts_created': 1658348333.269503, 'count_cycle': 0}
+try import.......script_display.myscript
+HTML Table Updated1658348333.309503
+HTML Table Updated1658348335.315108
+HTML Table Updated1658348337.320969
+HTML Table Updated1658348339.326925
+HTML Table Updated1658348341.332484
+HTML Table Updated1658348343.337615
+HTML Table Updated1658348345.343652
+HTML Table Updated1658348347.349779
+HTML Table Updated1658348349.359513
+HTML Table Updated1658348351.364747
+HTML Table Updated1658348353.369936
+HTML Table Updated1658348355.374584
+HTML Table Updated1658348357.381322
+HTML Table Updated1658348359.38795
+..........This script:app_HelloWorld_14044 is DEAD
+HTML Table Updated1658348361.39285
+HTML Table Updated1658348363.406585
+HTML Table Updated1658348365.412492
+HTML Table Updated1658348367.41806
+HTML Table Updated1658348369.423305
+HTML Table Updated1658348371.429073
+HTML Table Updated1658348373.435291
+HTML Table Updated1658348375.440368
+HTML Table Updated1658348377.446051
+HTML Table Updated1658348379.451256
+HTML Table Updated1658348381.457081
+HTML Table Updated1658348383.462749
+HTML Table Updated1658348385.471744
+HTML Table Updated1658348387.476713
+HTML Table Updated1658348389.482389
+HTML Table Updated1658348391.488372
+HTML Table Updated1658348393.494128

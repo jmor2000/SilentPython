@@ -1,0 +1,86 @@
+
+    <html>
+        <head>
+            <style>
+                td, th {border: 1px solid; padding: 8px;}
+                table {width: 100%; border-collapse: collapse;}
+                tr:nth-child(even) {background-color: #f2f2f2;}
+                thead {background-color: #AEC9F5;}
+            </style>           
+        </head>
+        <body>
+            <h2>Python Script Table</h2>
+            <input type="text" id="Input1" onkeyup="myFunction(0, 'Input1')" placeholder="Filter: Name">
+            <input type="text" id="Input2" onkeyup="myFunction(3, 'Input2')" placeholder="Filter: Group1">
+            <p>This table is a list of all the python scripts running that are connected to SQLight</p>
+            <div style="overflow-x: auto;">
+<table id="myTable">
+<thead>
+    <td>Name</td>
+    <td>Module</td>
+    <td>PID</td>
+    <td>Group1</td>
+    <td>Group2</td>
+    <td>Group3</td>
+    <td>Status</td>
+    <td>State</td>
+    <td>Timeout</td>
+    <td>Timecount</td>
+    <td>Cyclecount</td>
+    <td>TS_created</td>
+    <td>TS_updated</td>
+    <td>Log Dir</td>
+    <td>Auto Restart</td>
+    <td>Restart Count</td>
+  <tbody>
+  <tr>
+    <td>display</td>
+    <td>script_display.myscript</td>
+    <td>20428</td>
+    <td>group1</td>
+    <td></td>
+    <td></td>
+    <td style='background-color:#7FFFD4'>ok</td>
+    <td style='background-color:#7FFFD4'>ok</td>
+    <td style='background-color:#7FFFD4'>ok</td>
+    <td>2</td>
+    <td>301</td>
+    <td>21/07/2022 16:34:35</td>
+    <td>21/07/2022 16:44:37</td>
+    <td><a href='D:\Python\Monitoring Scripts\SilentPython 3 Export\logs\display/2022_07_21-16_34_35.log'>link Log</a></td>
+    <td>False</td>
+    <td>0</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+
+Current Time:2022-07-21 16:44:39.207927
+
+        </body>
+    </html>
+    
+    <script>
+    function myFunction(column_inx, mystring) {
+    // Declare variables
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById(mystring);
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+
+    // Loop through all table rows, and hide those who don't match the search query
+    for (i = 1; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[column_inx];
+        if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+        } else {
+            tr[i].style.display = "none";
+        }
+        }
+    }
+    }
+    </script>
+    

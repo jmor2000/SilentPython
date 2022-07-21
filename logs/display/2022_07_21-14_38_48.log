@@ -1,0 +1,22 @@
+Started at: 1658410728.384079
+Opened database successfully
+Found table successfully
+Display Script Successfully Updated in SQLight
+{'module': 'script_display.myscript', 'name': 'display', 'group': ['group1', '', ''], 'logfile': True, 'autorestart': 0, 'logdir': 'D:\\Python\\Monitoring Scripts\\SilentPython 3 Export\\logs\\display/2022_07_21-14_38_48.log', 'pid': 17348, 'status': 1, 'state': 'starting', 'ts_created': 1658410728.384079, 'count_cycle': 0}
+try import.......script_display.myscript
+HTML Table Updated1658410728.562068
+HTML Table Updated1658410730.572497
+HTML Table Updated1658410732.578638
+HTML Table Updated1658410734.585266
+HTML Table Updated1658410736.590349
+HTML Table Updated1658410738.595859
+HTML Table Updated1658410740.602857
+HTML Table Updated1658410742.607995
+HTML Table Updated1658410744.613981
+HTML Table Updated1658410746.620542
+HTML Table Updated1658410748.632604
+HTML Table Updated1658410750.638592
+HTML Table Updated1658410752.64478
+HTML Table Updated1658410754.65078
+HTML Table Updated1658410756.656377
+HTML Table Updated1658410758.661379

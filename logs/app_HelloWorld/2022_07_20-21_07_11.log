@@ -1,0 +1,10 @@
+Started at: 1658347631.861504
+Opened database successfully
+Found table successfully
+Display Script Successfully Updated in SQLight
+{'module': 'script_Helloworld.myscript', 'name': 'app_HelloWorld', 'group': ['group1', 'group2', 'group3'], 'logfile': True, 'autorestart': 0, 'logdir': 'D:\\Python\\Monitoring Scripts\\SilentPython 3 Export\\logs\\app_HelloWorld/2022_07_20-21_07_11.log', 'pid': 9612, 'status': 1, 'state': 'starting', 'ts_created': 1658347631.861504, 'count_cycle': 0}
+try import.......script_Helloworld.myscript
+name 'gjhgjhgjkh' is not defined
+Display Script Successfully Updated in SQLight
+Python Script==========================================
+End
