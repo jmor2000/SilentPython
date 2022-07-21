@@ -88,6 +88,7 @@ def main(sqlclient, appname="", property={}):
         #.....Timestamp
         __mytime = datetime.now()
         CurrentTime = datetime.timestamp(__mytime)
+        timeout_time = 60 #<-----------------------------------------------------timeout
 
         #HMTL...TABLE\\\\\\\\\\\\\\\\\\\\\\\\\\\
         table = """<div style="overflow-x: auto;">\n"""
@@ -112,7 +113,7 @@ def main(sqlclient, appname="", property={}):
             item_autorestart_count = 0
 
             #Script Check: PID
-            if item_timeout_time > 10:
+            if item_timeout_time > timeout_time:
                 item_timeout_str = 'timeout'
                 if obj_1[6] > 0:
                     combo_name = item_name + "_" + str(obj_1[2])

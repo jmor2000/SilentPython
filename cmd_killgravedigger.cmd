@@ -1,2 +1,2 @@
-py killall.py True
+py tools\killall.py True
 ::cmd /k
