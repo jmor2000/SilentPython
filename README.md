@@ -10,11 +10,11 @@
 ### Installation (bootstrapping)
 - Windows 10 x64 OS
 - Python - python-3.10.5-amd64
-- 
-Step 1: copy and move root "SilentPython" to desired memory area
-Step 2: open folder "SilentPyton\install win64"
-Step 3: install python "python-3.10.5-amd64.exe"
-Step 4: install dependancies with script "Installer_Script.cmd"
+
+- Step 1: copy and move root "SilentPython" to desired memory area
+- Step 2: open folder "SilentPyton\install win64"
+- Step 3: install python "python-3.10.5-amd64.exe"
+- Step 4: install dependancies with script "Installer_Script.cmd"
 
 ### Operation
 
