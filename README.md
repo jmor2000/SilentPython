@@ -1,11 +1,50 @@
-# Info
+### Info
 This is an implementation of the OMRON FINS protocol.
 
 -Labview 2019
-
 -PLC OMRON CP1L
-
 -PLC OMRON CX1 Programmer 9.7
+
+
+The latest stable version is available in the Python Package Index (PyPi) and can be installed using
+```bash
+pip3 install gmqtt
+```
+
+### Usage
+
+
+
+
+### Installation
+# Requirements
+- Windows OS
+- Python
+
+```cmd
+Installer_Script.cmd
+```
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 
 # Examples
 The example 1 (as seen in the image below) defines a means to:
