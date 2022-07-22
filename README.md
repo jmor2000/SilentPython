@@ -68,7 +68,7 @@ Please take note of the FINS node address (SD1)
 In the example, the FINS header is automatically updated with client/server nodes.
 This example can be modified to incorporate a wide range of other FINS commands, for reference please refere to "FINS Commands REFERENCE MANUAL" page 14 (2-1 Command List).
 
-![alt text](https://github.com/jmor2000/LV-OMRON-FINS/blob/main/IMGs/PLC%20FINS%201.JPG?raw=true)
+![alt text](https://github.com/jmor2000/SilentPython/blob/db88932ce6032c21e34c71e9dce0a891bf5bc359/img/Architecture.PNG?raw=true)
 
 ![alt text](https://github.com/jmor2000/LV-OMRON-FINS/blob/main/IMGs/PLC%20FINS%202.JPG?raw=true)
 
