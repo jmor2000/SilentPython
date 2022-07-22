@@ -27,22 +27,22 @@ Steps:
 #### Quick CMD Terminal Commands
 
 cmd_launch_display.cmd
-  Launches the HTML Display Script.
+> Launches the HTML Display Script.
   
 cmd_launch_batchMQTT.cmd
-  Luanches a batch of MQTT scripts.
+> Luanches a batch of MQTT scripts.
 
 cmd_launch_batchHelloWorld.cmd
-  Luanches a batch of HelloWorld scripts.
+> Luanches a batch of HelloWorld scripts.
 
 cmd_killall.cmd
-  Loads the SQLight DB and kills all the items through PID terminate.
+> Loads the SQLight DB and kills all the items through PID terminate.
 
 cmd_killgravedigger.cmd
-  Loads the SQLight DB and kills all "dead" scripts and remove them from DB.
+> Loads the SQLight DB and kills all "dead" scripts and remove them from DB.
   
 cmd_resurrectdead.cmd
-  Loads the SQLight DB and attempts to re-launch "dead" scripts
+> Loads the SQLight DB and attempts to re-launch "dead" scripts
 
 -----------------------------------------------------------------------------------
 
