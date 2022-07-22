@@ -3,13 +3,13 @@
 
 
 # Usage
-
+Architecture
 ![alt text](https://github.com/jmor2000/SilentPython/blob/db88932ce6032c21e34c71e9dce0a891bf5bc359/img/Architecture.PNG?raw=true)
 
-
+Launcher
 ![alt text](https://github.com/jmor2000/SilentPython/blob/744e206cb2ec94538453e8ecc8398d7f95f2568f/img/Launch%20Script.JPG?raw=true)
 
-
+Graphical User Interface (GUI)
 ![alt text](https://github.com/jmor2000/SilentPython/blob/744e206cb2ec94538453e8ecc8398d7f95f2568f/img/HTML-Display.PNG?raw=true)
 
 
