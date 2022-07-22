@@ -9,8 +9,12 @@
 
 ### Installation (bootstrapping)
 
-Requirements:
+Tested with:
 - Windows 10 x64 OS
+- CMD Terminal
+- PowerShell Terminal
+- Google Chrome
+- MQTT Mosquitto 2.0.14 (not included)
 
 Steps:
 - Step 1: copy and move root "SilentPython" to desired memory area
@@ -20,16 +24,25 @@ Steps:
 
 ### Operation
 
+#### Quick CMD Terminal Commands
 
+cmd_launch_display.cmd
+  Launches the HTML Display Script.
+  
+cmd_launch_batchMQTT.cmd
+  Luanches a batch of MQTT scripts.
 
+cmd_launch_batchHelloWorld.cmd
+  Luanches a batch of HelloWorld scripts.
 
+cmd_killall.cmd
+  Loads the SQLight DB and kills all the items through PID terminate.
 
-
-
-
-
-
-
+cmd_killgravedigger.cmd
+  Loads the SQLight DB and kills all "dead" scripts and remove them from DB.
+  
+cmd_resurrectdead.cmd
+  Loads the SQLight DB and attempts to re-launch "dead" scripts
 
 -----------------------------------------------------------------------------------
 
