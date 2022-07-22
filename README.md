@@ -1,29 +1,22 @@
-### Info
-This is an implementation of the OMRON FINS protocol.
-
--Labview 2019
--PLC OMRON CP1L
--PLC OMRON CX1 Programmer 9.7
+# Info
 
 
-The latest stable version is available in the Python Package Index (PyPi) and can be installed using
-```bash
-pip3 install gmqtt
-```
 
-### Usage
+# Usage
 
 
 
 
-### Installation
-# Requirements
-- Windows OS
-- Python
+### Installation (bootstrapping)
+- Windows 10 x64 OS
+- Python - python-3.10.5-amd64
+- 
+Step 1: copy and move root "SilentPython" to desired memory area
+Step 2: open folder "SilentPyton\install win64"
+Step 3: install python "python-3.10.5-amd64.exe"
+Step 4: install dependancies with script "Installer_Script.cmd"
 
-```cmd
-Installer_Script.cmd
-```
+### Operation
 
 
 
