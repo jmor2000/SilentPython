@@ -1,0 +1,250 @@
+Started at: 1658433705.53172
+Opened database successfully
+Found table successfully
+Display Script Successfully Updated in SQLight
+{'module': 'script_MQTT.myscript', 'name': 'app_MQTT1', 'group': ['group1', '', ''], 'logfile': True, 'autorestart': 1, 'logdir': 'C:\\Users\\Jeff\\Desktop\\SilentPyton\\SilentPyton\\logs\\app_MQTT1/2022_07_21-12_01_45.log', 'pid': 7960, 'status': 1, 'state': 'starting', 'ts_created': 1658433705.53172, 'count_cycle': 0}
+try import.......script_MQTT.myscript
+Python Code==========================================
+Connected with result code 0
+Influx client connected: Scripts
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+loops started
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 1
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 2
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 3
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 4
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 5
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 6
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 7
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 8
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 9
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 10
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 11
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 12
+Influx value writen: app_MQTT1, iot2040/tempA2, 26.0, 13
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 14
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 15
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 16
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 17
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 18
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 19
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 20
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 21
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 22
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 23
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 24
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 26.0, 25
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 26
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 26.0, 27
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 28
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 29
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 30
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 31
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 32
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 33
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 34
+Influx value writen: app_MQTT1, iot2040/tempA2, 26.0, 35
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 36
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 37
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 38
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 39
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 40
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 26.0, 41
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 42
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 43
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 44
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 45
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 46
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 47
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 26.0, 48
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 49
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 50
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 51
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 52
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 53
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 54
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 55
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 26.0, 56
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 57
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 58
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 59
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 60
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 26.0, 61
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 62
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 63
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 64
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 65
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 25.0, 66
+Influx value writen: app_MQTT1, iot2040/tempA2, 26.0, 67
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 68
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 69
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 70
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 71
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 26.0, 72
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 73
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 74
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 75
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 22.0, 76
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA2, 24.0, 77
+MSG Payload=21.0
+MSG Topicx=iot2040/tempA0
+Influx value writen: app_MQTT1, iot2040/tempA0, 21.0, 78
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx value writen: app_MQTT1, iot2040/tempA0, 23.0, 79
+Influx value writen: app_MQTT1, iot2040/tempA2, 26.0, 80

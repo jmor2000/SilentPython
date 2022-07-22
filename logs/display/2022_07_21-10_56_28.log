@@ -1,0 +1,11 @@
+Started at: 1658429788.267268
+Opened database successfully
+Found table successfully
+Previous item found in mysql attempt kill & delete
+Display Script Successfully Updated in SQLight
+{'module': 'script_display.myscript', 'name': 'display', 'group': ['group1', '', ''], 'logfile': True, 'autorestart': 0, 'logdir': 'C:\\Users\\Jeff\\Desktop\\SilentPyton\\SilentPyton\\logs\\display/2022_07_21-10_56_28.log', 'pid': 6408, 'status': 1, 'state': 'starting', 'ts_created': 1658429788.267268, 'count_cycle': 0}
+try import.......script_display.myscript
+No module named 'psutil'
+Display Script Successfully Updated in SQLight
+Python Script==========================================
+End

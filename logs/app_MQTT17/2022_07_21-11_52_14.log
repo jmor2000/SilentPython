@@ -1,0 +1,253 @@
+Started at: 1658433134.925223
+Opened database successfully
+Found table successfully
+Display Script Successfully Updated in SQLight
+{'module': 'script_MQTT.myscript', 'name': 'app_MQTT17', 'group': ['group1', '', ''], 'logfile': True, 'autorestart': 1, 'logdir': 'C:\\Users\\Jeff\\Desktop\\SilentPyton\\SilentPyton\\logs\\app_MQTT17/2022_07_21-11_52_14.log', 'pid': 7072, 'status': 1, 'state': 'starting', 'ts_created': 1658433134.925223, 'count_cycle': 0}
+try import.......script_MQTT.myscript
+Python Code==========================================
+Connected with result code 0
+Influx client connected: Scripts
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+loops started
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+ERROR: Influx Write:1 - Buffer 6 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FB626B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx Connection: Error
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx client connected: Scripts
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+ERROR: Influx Write:1 - Buffer 16 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FB63070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx client connected: Scripts
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+ERROR: Influx Write:1 - Buffer 21 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FB235B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx client connected: Scripts
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+ERROR: Influx Write:1 - Buffer 32 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FB62D40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx client connected: Scripts
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+ERROR: Influx Write:1 - Buffer 40 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FB63F40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx client connected: Scripts
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+ERROR: Influx Write:1 - Buffer 48 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FBE85B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+Influx client connected: Scripts
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+ERROR: Influx Write:1 - Buffer 57 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FB23C70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+Influx client connected: Scripts
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+ERROR: Influx Write:1 - Buffer 64 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FB634C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx client connected: Scripts
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+ERROR: Influx Write:1 - Buffer 71 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FB62D70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=21.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+Influx client connected: Scripts
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+ERROR: Influx Write:1 - Buffer 80 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FBE86A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+Influx client connected: Scripts
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+ERROR: Influx Write:1 - Buffer 86 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FB23EE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+Influx client connected: Scripts
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=26.0
+MSG Topic=iot2040/tempA2
+ERROR: Influx Write:1 - Buffer 97 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FB61B70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+MSG Payload=22.0
+MSG Topic=iot2040/tempA2
+MSG Payload=25.0
+MSG Topicx=iot2040/tempA0
+MSG Payload=24.0
+MSG Topic=iot2040/tempA2
+MSG Payload=23.0
+MSG Topicx=iot2040/tempA0
+Influx client connected: Scripts
+ERROR: Influx Write:1 - Buffer 100 - e:{'state': True, 'value': 0, 'msg': 'influx_write: <urllib3.connection.HTTPConnection object at 0x000002305FB63970>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'}
+Influx Connection: Error
+Influx client connected: Scripts

@@ -1,2 +1,3 @@
 timeout 1
-start cmd /k tools\launch_script.cmd scripts\rapper.py script_display.myscript display group1\ True False
+start Powershell -WindowStyle Hidden -Command py scripts\rapper.py -m 'script_display.myscript' -n 'display' -g 'group1\' -l True -r False
+::cmd /k

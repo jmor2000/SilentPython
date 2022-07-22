@@ -1,0 +1,17 @@
+Started at: 1658484120.639006
+Opened database successfully
+Found table successfully
+Previous item found in mysql attempt kill & delete
+Display Script Successfully Updated in SQLight
+{'module': 'script_display.myscript', 'name': 'display', 'group': ['group1', '', ''], 'logfile': True, 'autorestart': 0, 'logdir': 'C:\\Users\\Jeff\\Desktop\\SilentPyton\\SilentPyton\\logs\\display/2022_07_22-02_02_00.log', 'pid': 3092, 'status': 1, 'state': 'starting', 'ts_created': 1658484120.639006, 'count_cycle': 0}
+try import.......script_display.myscript
+HTML Table Updated1658484120.810861
+HTML Table Updated1658484122.826866
+HTML Table Updated1658484124.842283
+HTML Table Updated1658484126.850161
+HTML Table Updated1658484128.857768
+HTML Table Updated1658484130.863934
+HTML Table Updated1658484132.881223
+HTML Table Updated1658484134.89029
+HTML Table Updated1658484136.907717
+HTML Table Updated1658484138.920551

@@ -14,7 +14,7 @@ def main(sqlclient, appname="", property={}):
     sqlclient.sql_update(items)
 
     time.sleep(5)  
-   bvcbvcbvcbvcbvc
+
    #Loop
     while True:                 
         time.sleep(1)       

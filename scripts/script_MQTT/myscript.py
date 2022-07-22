@@ -50,7 +50,7 @@ def main(sqlclient, appname="", property={}):
 
     #___INFLUX
     G_influxClient = influx_f.client()
-    G_influxClient.set_config("Scripts","my-org","nkqiIuAGrBDAACmyx82kD0q4YXhv_MJN-gXKF9PNN-nGimwnlOpT6Zmv4x805XIyFDNUOuzhvNRcoR32jWbTsg==","http://localhost:8086")
+    G_influxClient.set_config("Scripts","my-org","nkqiIuAGrBDAACmyx82kD0q4YXhv_MJN-gXKF9PNN-nGimwnlOpT6Zmv4x805XIyFDNUOuzhvNRcoR32jWbTsg==","http://192.168.0.227:8086")
     G_influxClient.connect()
 
     #__System Checks

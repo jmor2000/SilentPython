@@ -1,0 +1,10 @@
+Started at: 1658432250.187896
+Opened database successfully
+Found table successfully
+Display Script Successfully Updated in SQLight
+{'module': 'script_MQTT.myscript', 'name': 'app_MQTT8', 'group': ['group1', '', ''], 'logfile': True, 'autorestart': 1, 'logdir': 'C:\\Users\\Jeff\\Desktop\\SilentPyton\\SilentPyton\\logs\\app_MQTT8/2022_07_21-11_37_30.log', 'pid': 10668, 'status': 1, 'state': 'starting', 'ts_created': 1658432250.187896, 'count_cycle': 0}
+try import.......script_MQTT.myscript
+No module named 'influxdb_client'
+Display Script Successfully Updated in SQLight
+Python Script==========================================
+End
