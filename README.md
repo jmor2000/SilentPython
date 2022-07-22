@@ -11,6 +11,7 @@
 
 Tested with:
 - Windows 10 x64 OS
+- python-3.10
 - CMD Terminal
 - PowerShell Terminal
 - Google Chrome
@@ -26,14 +27,14 @@ Steps:
 
 **Quick CMD Terminal Commands**
 
-cmd_launch_display.cmd `#89d5e8`
+cmd_launch_display.cmd 
 > Launches the HTML Display Script.
   
-cmd_launch_batchMQTT.cmd `#89d5e8`
+cmd_launch_batchMQTT.cmd ```
 > Luanches a batch of MQTT scripts.
 
-cmd_launch_batchHelloWorld.cmd `#89d5e8`
-> Luanches a batch of HelloWorld scripts.
+cmd_launch_batchHelloWorld.cmd `#89d5e8
+> Luanches a batch of HelloWorld scripts. ```
 
 cmd_killall.cmd `#89d5e8`
 > Loads the SQLight DB and kills all the items through PID terminate.
