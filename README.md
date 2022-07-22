@@ -24,7 +24,7 @@ Steps:
 
 ### Operation
 
-** ** Quick CMD Terminal Commands
+**Quick CMD Terminal Commands**
 
 cmd_launch_display.cmd
 > Launches the HTML Display Script.
