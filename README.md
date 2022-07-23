@@ -1,6 +1,14 @@
 # Info
 
-
+SilentPython:
+- is a microservice framework which supports the backend deployment and management of 100s of independent python scripts/modules in a windows OS environment. 
+- enables the silent execution (hidden terminal) of independent python scripts/modules, and provides an independent HTML Graphical User Interface to monitor the scripts status, and gain access to terminal output of each script.
+- was created to overcome challenges when deploying independent scripts on scale and over time, including, how to:
+1. quick deploy scripts dynamically and operate them in the background (silently)
+2. how to group related scripts, and monitor their status, operation, and key metrics
+3. how to make scripts more robust (reboot capability)
+4. how to create and destroy executing scripts on demand (PID)
+- intended use is for industrial applications, in which activities need to be multi-purpose, robust, self-healing, ever evolving, and scaling.
 
 # Usage
 Architecture
