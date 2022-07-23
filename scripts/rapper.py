@@ -19,7 +19,7 @@ def passdata(argv):
     arg_group = []
     arg_logfile = False
     arg_autorestart = 0
-    arg_help = "{0} -m <module name> -n <script name> -g <grouping g1\g2\g3> -l <log file?>".format(argv[0])
+    arg_help = "{0} -m <module name> -n <script name> -g <grouping g1\g2\g3> -l <log file?> -r <autorestart?>".format(argv[0])
     return_data = {}
     
     try:
@@ -99,7 +99,6 @@ if __name__ == "__main__":
     script_config.update({'pid' : os.getpid()})
     script_config.update({'status' : 1})
     script_config.update({'state' : "starting"})
-
     script_config.update({'ts_created' : ts_created})
     script_config.update({'count_cycle' : 0})
     #Connect to DB
@@ -107,7 +106,6 @@ if __name__ == "__main__":
     sql_client.sql_connect()
     #Update DB
     sql_client.sql_start(script_config)
-
     #record
     print('Display Script Successfully Updated in SQLight')
     print(script_config)
@@ -121,7 +119,7 @@ if __name__ == "__main__":
         #--------------------Dynamic Import
         print("try import......." + script_config.get('module'))
         myscript = importlib.import_module(script_config.get('module'))
-        myscript.main(sql_client,appname,{})
+        myscript.main(sql_client,appname,{})#<<<<<------------launch script
     except Exception as e: 
         print(e)
     
@@ -132,10 +130,8 @@ if __name__ == "__main__":
     #--------------------------------------------Script Display
     items = {'status' : -1, 'ts_updated' : datetime.timestamp(datetime.now())}
     sql_client.sql_update(items)
-
     print('Display Script Successfully Updated in SQLight')
     #----------------------------------------------------------
- 
     print('Python Script==========================================')
     print('End')
     sys.stdout.flush()
