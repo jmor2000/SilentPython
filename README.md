@@ -22,6 +22,7 @@ Tested with:
 - PowerShell Terminal
 - Google Chrome
 - MQTT Mosquitto 2.0.14 (not included)
+- InfluxDB 2.1.1 (not included)
 
 Steps:
 - Step 1: copy and move root "SilentPython" to desired memory area
