@@ -36,19 +36,19 @@ Steps:
 cmd_launch_display.cmd 
 > Launches the HTML Display Script.
   
-cmd_launch_batchMQTT.cmd ```
+cmd_launch_batchMQTT.cmd
 > Luanches a batch of MQTT scripts.
 
-cmd_launch_batchHelloWorld.cmd `#89d5e8
-> Luanches a batch of HelloWorld scripts. ```
+cmd_launch_batchHelloWorld.cmd
+> Luanches a batch of HelloWorld scripts.
 
-cmd_killall.cmd `#89d5e8`
+cmd_killall.cmd
 > Loads the SQLight DB and kills all the items through PID terminate.
 
-cmd_killgravedigger.cmd `#89d5e8`
+cmd_killgravedigger.cmd
 > Loads the SQLight DB and kills all "dead" scripts and remove them from DB.
   
-cmd_resurrectdead.cmd `#89d5e8`
+cmd_resurrectdead.cmd
 > Loads the SQLight DB and attempts to re-launch "dead" scripts
 
 -----------------------------------------------------------------------------------
