@@ -43,7 +43,8 @@ Graphical User Interface (GUI)
 
 Tested with:
 - Windows 10 x64 OS
-- python-3.10
+- Python-3.10
+- SQLight 
 - CMD Terminal
 - PowerShell Terminal
 - Google Chrome
@@ -90,6 +91,8 @@ SilentPython\scripts\script_MQTT
 SilentPython\scripts\script_OPCUA (not included)
 > Simple OPC UA client, utilises multi threading for data acquisition (OPCUA), processing (can be anything), and storage (InfluxDB).
 
------------------------------------------------------------------------------------
+### Notes
+- Delete the DB or Display will....
+- .....
 
 
