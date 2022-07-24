@@ -49,6 +49,7 @@ Tested with:
 - Google Chrome
 - MQTT Mosquitto 2.0.14 (not included)
 - InfluxDB 2.1.1 (not included)
+- Grafana (not included)
 
 Steps:
 - Step 1: copy and move root "SilentPython" to desired memory area
@@ -77,6 +78,17 @@ cmd_killgravedigger.cmd
   
 cmd_resurrectdead.cmd
 > Loads the SQLight DB and attempts to re-launch "dead" scripts
+
+### Current Modules
+
+SilentPython\scripts\**script_Helloworld**
+> Simple example script prints "Helloworld" to the terminal, good for testing.
+
+SilentPython\scripts\**script_MQTT**
+> Simple MQTT client, utilises multi threading for data acquisition (MQTT), processing (can be anything), and storage (InfluxDB).
+
+SilentPython\scripts\**script_OPCUA**(not included)
+> Simple OPC UA client, utilises multi threading for data acquisition (OPCUA), processing (can be anything), and storage (InfluxDB).
 
 -----------------------------------------------------------------------------------
 
