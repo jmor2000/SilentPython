@@ -58,6 +58,8 @@ Steps:
 - Step 3: install python "python-3.10.5-amd64.exe"
 - Step 4: install dependancies with script "Installer_Script.cmd"
 
+Demo: https://youtu.be/ckTtTzXv6Io
+
 ### Operation
 
 **Quick CMD Terminal Scripts**
@@ -93,9 +95,6 @@ SilentPython\scripts\script_OPCUA (not included)
 
 ### Notes
 - You can delete the DB or Display and they will get re-created by the rapper.py and the display.py
-
-https://youtu.be/ckTtTzXv6Io
-[![Watch the video]](https://youtu.be/ckTtTzXv6Io)
 
 # Example
 
