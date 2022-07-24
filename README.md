@@ -34,7 +34,7 @@ Graphical User Interface (GUI)
 >- Timecount     - Time difference in seconds betwween Current time and TS_updated
 >- Cyclecount    - The cycle count of a script, defined unique in each script (e.g how many data points have been processed)
 >- TS_created    - Timestamp of when the script was launched
->- TS_updated    - Timestamp of the last update saved to the SQLightDB, acts as a heartbeat to monitor for timeouts
+>- TS_updated    - Timestamp of the last update saved to the SQLiteDB, acts as a heartbeat to monitor for timeouts
 >- Log Dir       - Link to the log directory/file the script is writing its terminal to if --logfile or -l is True
 >- Auto Restart  - Defines whether auto restart is enabled, --autorestart or -r is True
 >- Restart Count - Counts how many restarts have been attempted (currently max is set to 3)
@@ -44,7 +44,7 @@ Graphical User Interface (GUI)
 Tested with:
 - Windows 10 x64 OS
 - Python-3.10
-- SQLight 
+- SQLite 
 - CMD Terminal
 - PowerShell Terminal
 - Google Chrome
