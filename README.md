@@ -94,6 +94,8 @@ SilentPython\scripts\script_OPCUA (not included)
 ### Notes
 - You can delete the DB or Display and they will get re-created by the rapper.py and the display.py
 
+https://youtu.be/ckTtTzXv6Io
+
 
 # Example
 
