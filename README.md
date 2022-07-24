@@ -81,13 +81,13 @@ cmd_resurrectdead.cmd
 
 ### Current Modules
 
-SilentPython\scripts\**script_Helloworld**
+SilentPython\scripts\script_Helloworld
 > Simple example script prints "Helloworld" to the terminal, good for testing.
 
-SilentPython\scripts\**script_MQTT**
+SilentPython\scripts\script_MQTT
 > Simple MQTT client, utilises multi threading for data acquisition (MQTT), processing (can be anything), and storage (InfluxDB).
 
-SilentPython\scripts\**script_OPCUA**(not included)
+SilentPython\scripts\script_OPCUA (not included)
 > Simple OPC UA client, utilises multi threading for data acquisition (OPCUA), processing (can be anything), and storage (InfluxDB).
 
 -----------------------------------------------------------------------------------
