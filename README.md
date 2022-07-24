@@ -4,10 +4,10 @@ SilentPython:
 - is a light weight microservice framework which supports the backend deployment and management of 100s of independent continuously operating python scripts in a windows OS environment. 
 - enables the silent execution (hidden terminal) of independent python scripts/modules, and provides an independent HTML Graphical User Interface(GUI) to monitor the scripts status, and vie the terminal output of each script.
 - was created to overcome challenges when deploying independent scripts on scale and over time, including, how to:
-    1. quick deploy scripts dynamically and operate them in the background (silently)
-    2. how to group related scripts, and monitor their status, operation, and key metrics
-    3. how to make scripts more robust (reboot capability)
-    4. how to create and destroy executing scripts on demand (PID)
+    1. quickly deploy scripts dynamically and operate them in the background (silently)
+    2. group related scripts, and monitor their status, operation, and key metrics
+    3. make scripts more robust (reboot capability)
+    4. create and destroy executing scripts on demand (PID)
 - intended use is for industrial applications, in which activities need to be multi-purpose, robust, self-healing, ever evolving, and scaling.
 
 # Usage
@@ -43,12 +43,14 @@ Graphical User Interface (GUI)
 
 Tested with:
 - Windows 10 x64 OS
-- python-3.10
+- Python-3.10
+- SQLight 
 - CMD Terminal
 - PowerShell Terminal
 - Google Chrome
 - MQTT Mosquitto 2.0.14 (not included)
 - InfluxDB 2.1.1 (not included)
+- Grafana (not included)
 
 Steps:
 - Step 1: copy and move root "SilentPython" to desired memory area
@@ -58,7 +60,7 @@ Steps:
 
 ### Operation
 
-**Quick CMD Terminal Commands**
+**Quick CMD Terminal Scripts**
 
 cmd_launch_display.cmd 
 > Launches the HTML Display Script.
@@ -78,6 +80,19 @@ cmd_killgravedigger.cmd
 cmd_resurrectdead.cmd
 > Loads the SQLight DB and attempts to re-launch "dead" scripts
 
------------------------------------------------------------------------------------
+### Current Modules
+
+SilentPython\scripts\script_Helloworld
+> Simple example script prints "Helloworld" to the terminal, good for testing.
+
+SilentPython\scripts\script_MQTT
+> Simple MQTT client, utilises multi threading for data acquisition (MQTT), processing (can be anything), and storage (InfluxDB).
+
+SilentPython\scripts\script_OPCUA (not included)
+> Simple OPC UA client, utilises multi threading for data acquisition (OPCUA), processing (can be anything), and storage (InfluxDB).
+
+### Notes
+- You can delete the DB or Display and they will get re-created by the rapper.py and the display.py
+- .....
 
 
