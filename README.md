@@ -95,8 +95,8 @@ SilentPython\scripts\script_OPCUA (not included)
 
 ### Adding Scripts/Modules
 
-All scripts/modules need to be placed in the 'scripts' folder. The script name and any subfolders used will need to be referenced in the CMD calls.
-Example, -m 'script_Helloworld\myscript.py'. Shared python modules or libraries are kept in the 'scripts\lib' folder.
+All scripts/modules need to be placed in the 'scripts' folder. The script name and any subfolders used will need to be referenced (with a '.') in the CMD calls.
+Example, -m 'script_Helloworld.myscript'. Shared python modules or libraries are kept in the 'scripts\lib' folder.
 ![alt text](https://github.com/jmor2000/SilentPython/blob/a6a1fd9a176a59e97454cf610a9992cc0258fe63/img/modules%20directory.JPG?raw=true)
 
 ### Notes
