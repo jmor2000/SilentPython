@@ -10,9 +10,10 @@ SilentPython:
     4. how to create and destroy executing scripts on demand (PID)
 - intended use is for industrial applications, in which activities need to be multi-purpose, robust, self-healing, ever evolving, and scaling.
 
+# Usage
+Concept
 ![alt text](https://github.com/jmor2000/SilentPython/blob/eff18374352fda133cb19c917335cd9111257aee/img/SP%20Scope.JPG?raw=true)
 
-# Usage
 Architecture
 ![alt text](https://github.com/jmor2000/SilentPython/blob/db88932ce6032c21e34c71e9dce0a891bf5bc359/img/Architecture.PNG?raw=true)
 
