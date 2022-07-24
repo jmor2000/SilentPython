@@ -39,7 +39,7 @@ Graphical User Interface (GUI)
 >- Auto Restart  - Defines whether auto restart is enabled, --autorestart or -r is True
 >- Restart Count - Counts how many restarts have been attempted (currently max is set to 3)
 
-### Installation (bootstrapping)
+### Installation
 
 Tested with:
 - Windows 10 x64 OS
@@ -93,6 +93,27 @@ SilentPython\scripts\script_OPCUA (not included)
 
 ### Notes
 - You can delete the DB or Display and they will get re-created by the rapper.py and the display.py
-- .....
+
+
+# Example
+
+This example utilises x3 core python scripts/modules for data conversion, filtering, and display, and there are x24 scripts executing in total.
+Data is transformed in the python scripts and sent to a timeseries database, afterwhich (as standard) data is displayed enabling descriptive analytics of the process. An IoT device is collecting temperature data, and a PLC is operating a process. The python scripts are acting as an integration layer for data processing and storage. All python scripts are easily monitored through use of the chrome browser which is displaying the Silent Python HTML GUI (bookmarked in google chrome). If this processing chain needs to be expanded in future I can add more scripts quickly and easily without disturbing the digital ecosystem. If a script failes the framework will attempt to restart the script (x3 times), afterwhich user intervention is required.
+
+Notes:
+- Yes, I could have justed used Node-red, however on personly experience Node-red was: 1) not robust enough to recover from different typical errors I was observing on lengthy deployments, 2) could not do exactly what I wanted for data conversion, 3) was not python centric!
+- The x21 MQTT scripts are mostly for demonstration and are not core to the example / usecase. In future the MQTT module will be configurable through a config file per instance, enabling unique processing and connectivity for each instance.
+
+Example Architecture
+![alt text](https://github.com/jmor2000/SilentPython/blob/1a02599396ca62c931f3fbc1b8e6293bf9b12c7d/img/example%20Architecture.JPG?raw=true)
+
+Example Architecture
+![alt text](https://github.com/jmor2000/SilentPython/blob/1a02599396ca62c931f3fbc1b8e6293bf9b12c7d/img/example%20GUI.JPG?raw=true)
+
+Example Dashboad
+![alt text](https://github.com/jmor2000/SilentPython/blob/1a02599396ca62c931f3fbc1b8e6293bf9b12c7d/img/example%20Dashboard.JPG?raw=true)
+
+
+
 
 
