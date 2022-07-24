@@ -93,6 +93,12 @@ SilentPython\scripts\script_MQTT
 SilentPython\scripts\script_OPCUA (not included)
 > Simple OPC UA client, utilises multi threading for data acquisition (OPCUA), processing (can be anything), and storage (InfluxDB).
 
+### Adding Scripts/Modules
+
+All scripts/modules need to be placed in the 'scripts' folder. The script name and any subfolders used will need to be referenced in the CMD calls.
+Example, -m 'script_Helloworld\myscript.py'. Shared python modules or libraries are kept in the 'scripts\lib' folder.
+![alt text](https://github.com/jmor2000/SilentPython/blob/a6a1fd9a176a59e97454cf610a9992cc0258fe63/img/modules%20directory.JPG?raw=true)
+
 ### Notes
 - You can delete the DB or Display and they will get re-created by the rapper.py and the display.py
 
