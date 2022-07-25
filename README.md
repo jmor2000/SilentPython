@@ -115,10 +115,10 @@ Notes:
 Example Architecture
 ![alt text](https://github.com/jmor2000/SilentPython/blob/1a02599396ca62c931f3fbc1b8e6293bf9b12c7d/img/example%20Architecture.JPG?raw=true)
 
-Example Chrome HTTP GUI
+Example Chrome HTML GUI
 ![alt text](https://github.com/jmor2000/SilentPython/blob/1a02599396ca62c931f3fbc1b8e6293bf9b12c7d/img/example%20GUI.JPG?raw=true)
 
-Example Dashboard
+Example Dashboard Grafana
 ![alt text](https://github.com/jmor2000/SilentPython/blob/1a02599396ca62c931f3fbc1b8e6293bf9b12c7d/img/example%20Dashboard.JPG?raw=true)
 
 
